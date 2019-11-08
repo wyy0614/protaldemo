@@ -1,0 +1,68 @@
+/*外边框*/
+#bk{
+    width: 100%;
+    /*height: 100%;*/
+    background-color: #F5F5F5;
+}
+/*第一部分*/
+#f{
+    width: 100%;
+    height: 44px;
+    background-color: #222222;
+    display:flex;
+    /*justify-content: center;*/
+    align-items: center;
+    position: relative;
+}
+#f-f{
+    margin: auto;
+}
+#f-f span{
+    color:white;
+    font-size: 16px;
+}
+#f-s{
+height: 22px;
+width: 22px;
+    position: absolute;
+    left:10px;
+}
+#f-s img{
+height: 100%;
+width: 100%;
+}
+
+
+/*第二部分*/
+#s{
+    height: 120px;
+    width: 100%;
+    /*border: 1px red solid;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#s div{
+    height:50px;
+    width: 160px;
+    /*border: #c20c0c;*/
+}
+#s div img{
+    height: 100%;
+    width: 100%;
+}
+
+
+/*第三部分*/
+#t {
+    height: 200px;
+    width: 100%;
+    /*border:1px  #c20c0c solid;*/
+}
+.t-f{
+    height:50px;
+    width:100%;
+    border: none;
+    border-bottom: #999999;
+    font-size: 20px;
+}
