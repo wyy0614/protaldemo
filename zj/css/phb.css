@@ -1,0 +1,219 @@
+/*外框*/
+#bk{
+    height:700px;
+    width:800px;
+    /*border:1px salmon solid;*/
+    margin:auto;
+    margin-top:50px;
+
+}
+/*标题*/
+#title{
+    width:100%;
+    height:35px;
+    /*border-bottom:2px #c20c0c solid;*/
+    /*background-color:blue;*/
+}
+/*分割线*/
+#fgx{
+    width:100%;
+    height:4px;
+    background-color:#c20c0c;
+    /*margin-bottom: 0;*/
+    /*border-bottom:2px #c20c0c solid;*/
+}
+/*左部标题*/
+#t-f{
+    margin:0;
+    font-weight:normal;
+    float:left;
+    margin-right:30px;
+}
+/*左部副标题*/
+#t-s{
+    float:left;
+}
+/*文字样式*/
+#t-s,#t-t{
+color:#666666;
+    margin-top:15px;
+    font-size:12px;
+}
+/*右部分*/
+#t-t{
+    float:right;
+}
+/*右部分特殊文字样式*/
+#t-t span{
+    color:#c20c0c;
+
+}
+
+/*内容*/
+
+
+#content{
+    width:100%;
+    height:600px;
+    /*background-color: #666666;*/
+}
+/*表格样式*/
+#content table{
+    border:1px #d9d9d9 solid;
+    width:100%;
+}
+/*表头*/
+
+.bt{
+    font-weight:normal;
+    height:38px;
+    background-color:#F7F7F7;
+    border-bottom:1px #DEDEDE solid;
+    border-right:1px #DEDEDE solid;
+    text-align:left;
+    padding-left:10px;
+    font-size:12px;
+    color:#666666;
+}
+/*表行样式*/
+.tt
+{
+    background-color: #F7F7F7;
+}
+.tt td{
+    padding: 12px 10px;
+}
+#tt2
+{
+    background-color: white;
+}
+#tt2 td{
+    padding: 12px 10px;
+}
+
+/*第一列*/
+.tt-text
+{
+    font-size: 10px;
+    color: #999999;
+
+}
+.tt-span2{
+    color:#358B3E;
+    font-size: 8px;
+    margin-left: 10px;
+}
+/*第二列*/
+.tt-fl{
+    display: flex;
+    align-items: center;
+}
+.ttfl-d {
+    margin-right: 15px;
+}
+/*图片大小*/
+.td-img{
+    height: 18px;
+    width: 18px;
+    margin-right: 10px;
+}
+.td-img img{
+    height:100%;
+    width: 100%;
+}
+.td-a{
+    display: block;
+    height: 18px;
+    width: 20px;
+    border: 1px #E3E3E3 solid;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.td-a img{
+    height: 100%;
+    width: 100%;
+}
+/*文本大小*/
+.tt-text2{
+    font-size: 12px;
+margin-right: 5px;
+}
+.tt-text2 a{
+    color: black;
+}
+/*链接伪类处理*/
+.tt-text2 a:link{
+    color: black;
+}
+.tt-text2 a:visited{
+    color: black;
+}
+.tt-text2 a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.tt-text2 a:active{
+    color: black;
+}
+/*第四列*/
+.tt-f2 {
+    font-size: 12px;
+}
+.tt-f2 a{
+    color: black;
+}
+
+.tt-f2 a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+
+
+
+/*第二行*/
+
+
+.tt-span1{
+    color:#c20c0c;
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+
+/*第四行*/
+#tt-f4{
+    height:18px;
+    width: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ttfl-a {
+    height: 14px;
+    width: 14px;
+
+}
+.ttfl-a img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+/*控制单元格宽度*/
+.pt2{
+    width: 10%;
+}
+.pt3{
+    width: 40%;
+}
+.pt4{
+     width: 10%;
+ }
+.pt5{
+      width: 20%;
+  }

@@ -1,0 +1,112 @@
+#bk{
+    height:300px;
+    width: 300px;
+    /*border: 1px #333333 solid;*/
+    margin: auto;
+    margin-top: 10px;
+    position:relative;
+}
+#bk-f{
+    /*height:100%;*/
+    width: 0;
+    /*background-color: #c20c0c;*/
+    border-top:#C9E891 150px solid;
+    border-right:transparent   150px solid;
+    border-bottom:transparent  150px solid;
+    border-left:transparent 150px solid;
+    /*float: left;*/
+    position: absolute;
+}
+#bk-s{
+    /*height:100%;*/
+    width: 0;
+    /*background-color: #c20c0c;*/
+    border-top:transparent 150px solid;
+    border-right:transparent   150px solid;
+    border-bottom:transparent  150px solid;
+    border-left:#68C0D2 150px solid;
+    position: absolute;
+}
+#bk-t{
+    /*height:100%;*/
+    width: 0;
+    /*background-color: #c20c0c;*/
+    border-top:transparent 75px solid;
+    border-right:transparent   75px solid;
+    border-bottom:#F195C8  75px solid;
+    border-left:transparent 75px solid;
+    position: absolute;
+    bottom:0;
+}
+#bk-fo{
+    height:106px;
+    width: 106px;
+    /*border: 1px red solid;*/
+    position: absolute;
+    bottom: 22px;
+    left:97px;
+    background-color: #A796C2;
+    transform: rotate(45deg);
+}
+#bk-fi{
+    /*height:100%;*/
+    width: 0;
+    /*background-color: #c20c0c;*/
+    border-top:transparent 75px solid;
+    border-right:transparent   75px solid;
+    border-bottom:#F0F223  75px solid;
+    border-left:transparent 75px solid;
+    position: absolute;
+    transform: rotate(-90deg);
+    bottom: 75px;
+    right:75px;
+}
+#bk-si {
+    /*height:100%;*/
+    width: 0;
+    /*background-color: #c20c0c;*/
+    border-top: transparent 106px solid;
+    border-right: transparent 106px solid;
+    border-bottom: #F8C82C 106px solid;
+    border-left: transparent 106px solid;
+    position: absolute;
+    transform: rotate(135deg);
+    bottom: -106px;
+    right:-106px;
+}
+#bk-se {
+    /*height:100%;*/
+    width: 0;
+    /*background-color: #c20c0c;*/
+    border-top: #EF3D61 53px solid;
+    border-right: transparent 53px solid;
+    border-bottom: transparent 53px solid;
+    border-left: transparent 53px solid;
+    /*float: left;*/
+    position: absolute;
+    transform: rotate(-45deg);
+    right:-53px;
+    top:22px;
+}
+#bk-ei {
+    height: 74.9px;
+    width: 74.9px;
+    background-color: #EF3D61;
+    position: absolute;
+    right:0;
+    top:74.99px;
+}
+#bk-ni {
+    /*height:100%;*/
+    width: 0;
+    /*background-color: #c20c0c;*/
+    border-top: #EF3D61 53px solid;
+    border-right: transparent 53px solid;
+    border-bottom: transparent 53px solid;
+    border-left: transparent 53px solid;
+    /*float: left;*/
+    position: absolute;
+    transform: rotate(135deg);
+    right: 21.89px;
+    top: 96.91px;
+}

@@ -1,0 +1,207 @@
+/*整体外边框*/
+#bk{
+    height:812px;
+}
+/*第一部分*/
+#f{
+    height:44px;
+    width:100%;
+    background-color: #315F6E;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/*logo*/
+#f-f{
+    height:24px;
+    width:73px;
+    margin-left:4px;
+}
+#f-f img {
+    height: 100%;
+    width: 100%;
+}
+/*搜索框*/
+#ff{
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+}
+#f-s{
+    height:24px;
+    width:200px;
+    background-color: #999999;
+    border-radius: 12px;
+    opacity: 0.5;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+/*语音按钮*/
+#fs-f{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    float: left;
+    left:8px;
+}
+#fs-f a img{
+    width:100%;
+    height: 100%;
+}
+/*搜索内容*/
+#fs-s{
+    height:15px;
+    width:180px;
+    /*background-color: #c20c0c;*/
+    position: absolute;
+    float: left;
+    left:32px;
+    top:1px;
+}
+#fs-s span{
+    font-size: 12px;
+    color:#666666;
+}
+#fss-f{
+    height:15px;
+    width:180px;
+    /*background-color: #c20c0c;*/
+    position: absolute;
+    float: left;
+    left:165px;
+    top:1px;
+}
+#fss-f span{
+    font-size: 12px;
+    color:#666666;
+}
+/*搜索标志*/
+#fs-t{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    float:left;
+    right: 8px;
+}
+#fs-t a img{
+    width:100%;
+    height: 100%;
+}
+/*历史记录*/
+#f-t{
+    margin-top:6px;
+}
+#f-t a img{
+    height: 17px;
+    width: 17px;
+}
+/*加号*/
+#f-tr{
+    margin-top:6px;
+}
+#f-tr a img{
+    height: 17px;
+    width: 17px;
+}
+
+/*第二部分*/
+#s{
+    height:44px;
+    width:100%;
+    background-color: #315F6E;
+    position: relative;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
+}
+/*70周年*/
+#s-f{
+    float: left;
+}
+#s-f a img{
+    height:38px;
+}
+/*标题*/
+#s-s{
+    width: 276px;
+    height: 38px;
+    float: left;
+    /*background-color: blue;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#s-s a{
+    color: white;
+}
+#s-t{
+    position: absolute;
+    right: 10px;
+    top:12px;
+}
+#s-t a img{
+    height: 17px;
+    width: 17px;
+}
+
+/*第三部分*/
+#t{
+    height: 185px;
+    /*width:375px;*/
+    position: relative;
+    /*border-radius: 10px;*/
+    /*background-color: white;*/
+}
+#t a img{
+    height:100%;
+    width:100%;
+}
+
+/*轮播点*/
+#ts-f a{
+    height:30px;
+    width:120px;
+    /*background-color: #c20c0c;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    bottom: 30px;
+    left: 240px;
+}
+.ts-s{
+    height:6px;
+    width:18px;
+    background-color: white;
+    border-radius: 3px;
+    opacity: 0.7;
+}
+#ts-s{
+    position: absolute;
+    bottom:3px;
+    left:10px
+}
+#ts-s a span{
+    color:white;
+    font-size: 13px;
+    font-family: "方正兰亭圆简体";
+}
+
+/*第四部分*/
+#fo{
+    height:80px;
+    background-color: #c20c0c;
+    display: flex;
+    align-items: center;
+}
+.fo-f{
+    height:60px;
+    width:100px;
+    border-radius: 5px;
+    background-color: #20BC22;
+
+}
+.fo-f span{
+    font-size: 15px;
+}
