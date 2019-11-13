@@ -1,10 +1,20 @@
 /*整体外边框*/
 #bk{
-    height:812px;
+    /*height:812px;*/
+    position: relative;
+}
+#ztl{
+    height:20px;
+    width: 100%;
+    background-color: #c20c0c;
+}
+#ztl img{
+    height: 100%;
+    width: 100%;
 }
 /*第一部分*/
 #f{
-    height:44px;
+    height:48px;
     width:100%;
     background-color: #315F6E;
     display:flex;
@@ -107,16 +117,17 @@
 
 /*第二部分*/
 #s{
-    height:44px;
+    height:46px;
     width:100%;
     background-color: #315F6E;
     position: relative;
-    /*display: flex;*/
+    display: flex;
     /*justify-content: space-between;*/
     /*align-items: center;*/
 }
 /*70周年*/
 #s-f{
+    /*position: absolute;*/
     float: left;
 }
 #s-f a img{
@@ -128,6 +139,7 @@
     height: 38px;
     float: left;
     /*background-color: blue;*/
+    /*position: absolute;*/
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -147,14 +159,14 @@
 
 /*第三部分*/
 #t{
-    height: 185px;
-    /*width:375px;*/
+    /*height: 20%;*/
+    /*width:100%;*/
     position: relative;
     /*border-radius: 10px;*/
     /*background-color: white;*/
 }
 #t a img{
-    height:100%;
+    /*height:0%;*/
     width:100%;
 }
 
@@ -171,7 +183,7 @@
     left: 240px;
 }
 .ts-s{
-    height:6px;
+    height:5px;
     width:18px;
     background-color: white;
     border-radius: 3px;
@@ -189,19 +201,256 @@
 }
 
 /*第四部分*/
-#fo{
+#fo {
     height:80px;
-    background-color: #c20c0c;
+    /*background-color: #c20c0c;*/
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-around;
+}
+.fo-f{
+    height:50px;
+    width:86px;
+    border-radius: 5px;
+    background-color: #F4F8FB;
+
+}
+
+.fo-s span{
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    margin-left: 10px;
+
+}
+.fo-t span{
+    font-size: 11px;
+    color: #333333;
+    margin-left: 10px;
+}
+/*第五部分*/
+#fi{
+    height:22px;
+    margin-left: 10px;
+    /*background-color: #c20c0c;*/
     display: flex;
     align-items: center;
 }
-.fo-f{
-    height:60px;
-    width:100px;
-    border-radius: 5px;
-    background-color: #20BC22;
-
+/*快报*/
+#fi-f{
+    height:20px;
+    width: 87px;
+    float: left;
 }
-.fo-f span{
+#fi-f img{
+    width: 100%;
+    height: 100%;
+}
+/*热搜*/
+#fi-s{
+    height:20px;
+    width:28px;
+    border-radius: 3px;
+    background-color: #c20c0c;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+#fi-s span{
+    color:white;
+    font-size: 10px;
+}
+/*标语*/
+#fi-t{
+    height:16px;
+    width:190px;
+    /*background-color: #c20c0c;*/
+    float: left;
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+    margin-left: 10px;
+}
+#fi-t span{
+    font-size: 17px;
+    color: #1E1E1E;
+}
+/*箭头*/
+#fi-fo{
+    height:14px;
+    width: 14px;
+    float: left;
+    margin-left: 14px;
+}
+#fi-fo img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/*第六部分*/
+#si{
+    margin-top: 12px;
+    position: relative;
+}
+#sis{
+    float: left;
+}
+/*节目图片*/
+.si-f{
+    height:105.04px;
+    width: 186.21px;
+    position:absolute;
+    /*float: left;.*/
+    /*background-color:red;*/
+}
+.si-f img{
+    height: 100%;
+    width: 100%;
+}
+.sif-f{
+    float: right;
+    height: 20px;
+    width: 33px;
+    border-radius:0 0 3px  3px;
+    position: absolute;
+    background-color: #FF9200;
+    top: 0;
+    right:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sif-f span{
+    color: white;
+    font-size: 14px;
+}
+.sif-s{
+    position: absolute;
+    bottom:4px;
+    right: 10px;
+}
+.sif-s span{
+    color: white;
+    font-size: 12px;
+}
+/*节目名称*/
+.si-s{
+    color: #333333;
     font-size: 15px;
+    position: absolute;
+    margin-top:110px;
+    margin-left: 8px;
+}
+.si-t{
+    color: #999999;
+    position: absolute;
+    font-size: 13px;
+    margin-left: 8px;
+    margin-top: 130px;
+}
+
+#sif{
+    height:105.04px;
+    width: 186.21px;
+    float: right;
+}
+#sit{
+    height:105.04px;
+    width: 186.21px;
+    float: left;
+    margin-top:160px;
+    /*background-color: #c20c0c;*/
+}
+
+#sifo{
+    height:105.04px;
+    width: 186.21px;
+    float: right;
+    margin-top:55px;
+    /*background-color: #c20c0c;*/
+}
+
+/*第七部分*/
+#se{
+    height:60px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    bottom: -270px;
+    background-color: white;
+}
+
+#se-f{
+    height:32px;
+    width: 32px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*position: absolute;*/
+    /*top: 10px;*/
+    background-color: #20BC22;
+}
+#se-f img{
+    height:20px;
+    width: 20px;
+}
+.se-t{
+    margin-left: 4px;
+    color: #20BC22;
+    font-size: 12px;
+}
+#se-s{
+    height:32px;
+    width: 32px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*position: absolute;*/
+    /*top: 10px;*/
+    border:1px #20BC22 solid;
+}
+#se-s img{
+    height:20px;
+    width: 20px;
+}
+
+#se-t{
+    height:32px;
+    width: 32px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*position: absolute;*/
+    /*top: 10px;*/
+    border:1px #20BC22 solid;
+}
+#se-t img{
+    height:20px;
+    width: 20px;
+}
+
+#se-fo{
+    height:32px;
+    width: 32px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*position: absolute;*/
+    /*top: 10px;*/
+    border:1px #20BC22 solid;
+}
+#se-fo img{
+    height:20px;
+    width: 20px;
 }
