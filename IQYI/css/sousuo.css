@@ -76,3 +76,155 @@
     opacity: 0.9;
 }
 /*第二部分*/
+#s{
+    position: relative;
+    top:70px;
+    height:34px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#s-f{
+    height: 30px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    color: #20BC22;
+}
+#s-s{
+    height: 30px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin-left: 11px;
+    color: #666666;
+}
+#s-t{
+    height: 30px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     float: left;
+    color: #666666;
+ }
+#s-fo{
+    height: 30px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      float: left;
+    color: #666666;
+  }
+#s-fi{
+    height: 30px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    color: #666666;
+   }
+#s-si{
+    height:3px;
+    width: 28px;
+    border-radius: 1.5px;
+    background-color: #20BC22;
+    position: relative;
+    top:68px;
+    left: 33px;
+}
+/*第三部分*/
+#t{
+    width:100px;
+    height: 300px;
+    position: relative;
+    top:70px;
+}
+#ts{
+    position: absolute;
+    top:30px;
+}
+#tt{
+    position: absolute;
+    top:60px;
+}
+#tfo{
+    position: absolute;
+    top:90px;
+}
+#tfi{
+    position: absolute;
+    top:120px;
+}
+#tsi{
+    position: absolute;
+    top:150px;
+}
+#tse{
+    position: absolute;
+    top:180px;
+}
+#tei{
+    position: absolute;
+    top:210px;
+}
+#tni{
+    position: absolute;
+    top:240px;
+}
+#tte{
+    position: absolute;
+    top:270px;
+}
+.t-f{
+    position: absolute;
+    height: 40px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    float: left;
+    left:13px;
+}
+.t-f a{
+    color:#333333;
+}
+.t-s{
+    position: absolute;
+    height: 40px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    left: 210px;
+}
+.t-s a{
+    color:#333333;
+}
+/*第四部分*/
+#fo{
+    height:100px;
+    width: 100%;
+    position: relative;
+    top:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#fo-f{
+    height:30px;
+    width: 30px;
+}
+#fo-f img{
+    height:100%;
+    width: 100%;
+}
+#fo-s{
+    color: #20BC22;
+    font-size: 18px;
+}
