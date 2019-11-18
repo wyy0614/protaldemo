@@ -1,7 +1,438 @@
+/*第一部分*/
+#f{
+    width:100%;
+    height:120px;
+    background-color: #315F6E;
+    position: fixed;
+    z-index: 1;
+}
 #f-f{
+    position: absolute;
     width: 100%;
 }
 #f-f img{
     height: 100%;
     width: 100%;
+}
+#f-s{
+    width: 100%;
+    height: 22px;
+    position: absolute;
+    top:26px;
+}
+#fs-f{
+    float: left;
+    margin-left: 10px;
+}
+#fs-f img{
+    height:14px;
+    width: 14px;
+}
+#fs-s{
+    float: right;
+    margin-right: 10px;
+}
+#fs-s img{
+    height:17px;
+    width: 17px;
+}
+#f-t{
+    margin-top: 22px;
+    width: 100%;
+}
+#f-t img{
+    width: 100%;
+}
+#ft-f{
+    height:36px;
+    width: 36px;
+    border-radius: 18px;
+    border:1px white solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    position: absolute;
+    top:108px;
+    left: 165px;
+    opacity:0.8;
+}
+#ft-f img{
+    height:24px;
+    width:24px;
+}
+#ft-s{
+    height:16px;
+    width: 16px;
+    position: absolute;
+    top:210px;
+    left:346px;
+}
+#ft-s img{
+    height: 100%;
+    width: 100%;
+}
+
+#f-fo{
+    height:32px;
+    width: 100%;
+    position: relative;
+    top:-4px;
+    background-color: white;
+}
+#fo-f{
+    height:2px;
+    width: 14px;
+    position: absolute;
+    left: 129px;
+    top:28px;
+    border-radius: 1px;
+    background: #20BC22;
+}
+#fo-s{
+    float: left;
+    position: absolute;
+    top:3px;
+    left: 120px;
+}
+#fo-t{
+    float: right;
+    position: absolute;
+    top:3px;
+    right: 120px;
+}
+/*第二部分*/
+#s{
+height:32px;
+    width: 340px;
+    border-radius: 16px;
+    background: #DDA866;
+    position: relative;
+    top:280px;
+    left:18.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#s-f{
+    height:80px;
+    width:100%;
+    position:absolute;
+    top:330px;
+}
+#sf-f{
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    left: 15px;
+}
+#sf-s{
+    color:#666666;
+    position: absolute;
+    left:305px;
+    top:3px;
+}
+#sf-t{
+    height:20px;
+    width: 20px;
+    position: absolute;
+    left:340px;
+    top:3px;
+}
+#sf-t img{
+    height: 100%;
+    width: 100%;
+}
+#sf-fo{
+    position: absolute;
+    top:32px;
+    left: 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+#sf-fi{
+    position: absolute;
+    top:58px;
+    left: 15px;
+    color: #666666;
+    font-size: 10px;
+}
+#sf-si{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top:55px;
+    left: 116px;
+    font-size: 10px;
+    color: #20BC22;
+}
+#sf-si img{
+    height: 18px;
+    width: 18px;
+}
+/*第三部分*/
+#t{
+    width: 100%;
+    position: relative;
+    top:390px;
+}
+#t-f{
+    position: absolute;
+    font-weight: bold;
+    font-size: 18px;
+    left: 15px;
+}
+#t-s{
+    color:#666666;
+    position: absolute;
+    left:230px;
+    top:2px;
+    display: flex;
+    align-items: center;
+}
+#t-s img{
+    margin-left: 4px;
+    height: 20px;
+    width: 20px;
+}
+#t-t{
+    position: absolute;
+    top:36px;
+    width: 140px;
+    height: 90px;
+    background-color: #c20c0c;
+    left: 15px;
+
+}
+#tt-f{
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    right: 5px;
+    bottom: 4px;
+}
+#t-fo{
+    position: absolute;
+    top:36px;
+    width: 140px;
+    height: 90px;
+    left: 165px;
+    background-color: #c20c0c;
+}
+#tt-s{
+    position: absolute;
+    height: 16px;
+    width: 30px;
+    border-radius: 4px 0 0 4px;
+    right: 0;
+    background-color: #20BC22;
+    color: white;
+    top:4px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    opacity: 0.9;
+}
+#tt-fo{
+    position: absolute;
+    height: 16px;
+    width: 50px;
+    background-color: #20BC22;
+    color: white;
+    bottom:4px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    opacity: 0.9;
+}
+#tt-t{
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    right: 5px;
+    bottom: 4px;
+}
+#t-fi{
+    position: absolute;
+    height: 40px;
+    width: 140px;
+    left: 15px;
+    top:132px;
+    color: #333333;
+    font-size: 13px;
+    font-weight: bold;
+}
+#t-si{
+    position: absolute;
+    height: 40px;
+    width: 140px;
+    left: 165px;
+    top:132px;
+    color: #333333;
+    font-size: 13px;
+    font-weight: bold;
+}
+/*第四部分*/
+#fo{
+    width: 100%;
+    position: relative;
+    top:570px;
+    background-color: #20BC22;
+}
+#fof{
+    position: absolute;
+    font-weight: bold;
+    font-size: 18px;
+    left: 15px;
+}
+#fos{
+    color:#666666;
+    position: absolute;
+    left:270px;
+    top:2px;
+    display: flex;
+    align-items: center;
+}
+#fos img{
+    margin-left: 4px;
+    height: 20px;
+    width: 20px;
+}
+#fot{
+    position: absolute;
+    top:36px;
+    width: 140px;
+    height: 90px;
+    background-color: #c20c0c;
+    left: 15px;
+
+}
+#fot-f{
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    right: 5px;
+    bottom: 4px;
+}
+#fot-s{
+    position: absolute;
+    top:36px;
+    width: 140px;
+    height: 90px;
+    left: 165px;
+    background-color: #c20c0c;
+}
+#fot-t{
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    right: 5px;
+    bottom: 4px;
+}
+#si{
+    width: 100%;
+    position: relative;
+    top:710px;
+    background-color: #20BC22;
+}
+#sif{
+    position: absolute;
+    font-weight: bold;
+    font-size: 18px;
+    left: 15px;
+}
+#sit{
+    position: absolute;
+    top:36px;
+    width: 140px;
+    height: 90px;
+    background-color: #c20c0c;
+    left: 15px;
+
+}
+#sit-f{
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    right: 5px;
+    bottom: 4px;
+}
+#sit-s{
+    position: absolute;
+    top:36px;
+    width: 140px;
+    height: 90px;
+    left: 165px;
+    background-color: #c20c0c;
+}
+#sit-t{
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    right: 5px;
+    bottom: 4px;
+}
+#sit-fo{
+    position: absolute;
+    height: 40px;
+    width: 140px;
+    left: 15px;
+    top:132px;
+    color: #333333;
+    font-size: 13px;
+    font-weight: bold;
+}
+#sit-fi{
+    position: absolute;
+    height: 40px;
+    width: 140px;
+    left: 165px;
+    top:132px;
+    color: #333333;
+    font-size: 13px;
+    font-weight: bold;
+}
+/*第五部分*/
+#fi{
+    height:55px;
+    width:100%;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    bottom:0;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#fi-f{
+    height: 35px;
+    width: 170px;
+    border: 1px #DEDEDE solid;
+    position: absolute;
+    left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#fi-f input{
+    border: none;
+    outline: none;
+}
+#fi-t{
+    height: 35px;
+    width: 170px;
+    position: absolute;
+    right:6px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fi-s{
+    height:24px;
+    width: 24px;
+    float: left;
+    background-color: #c20c0c;
+
 }
