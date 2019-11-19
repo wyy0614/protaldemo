@@ -1,43 +1,37 @@
-/*整体外边框*/
-/*#bk{*/
-    /*height:812px;*/
-    /*!*width: 375px;*!*/
-    /*position: relative;*/
-/*}*/
+
 #yd{
     position: fixed;
     z-index: 1;
+    height: 70px;
+    width: 100%;
+    background-color: #315F6E;
 }
 #ztl{
-    height:21px;
     width: 100%;
-    position:fixed;
+    position:absolute;
     top:0;
     float: left;
-    /*background-color: #c20c0c;*/
 }
 #ztl img{
-    /*height: 100%;*/
+    height: 100%;
     width: 100%;
 }
 /*第一部分*/
 #f{
-    /*48px*/
     height:48px;
     width:100%;
     background-color: #315F6E;
-    position: fixed;
-    top:2.61%;
+    position: absolute;
+    top:20px;
     display:flex;
     justify-content: space-around;
     align-items: center;
-    float: left;
 }
 /*logo*/
 #f-f{
     height:25px;
     width:75px;
-    margin-left:10px;
+    margin-left:8px;
 }
 #f-f img {
     height: 100%;
@@ -52,7 +46,6 @@
     align-items: center;
 }
 #f-s{
-
     height:100%;
     width:100%;
     background-color: #999999;
@@ -69,7 +62,7 @@
     position: absolute;
     float: left;
     left:8px;
-    top:10%;
+    top:4px;
 }
 #fs-f a img{
     width:100%;
@@ -77,27 +70,26 @@
 }
 /*搜索内容*/
 #fs-s{
-    /*height:62.5%;*/
-    /*width:90%;*/
-    /*background-color: #c20c0c;*/
     position: absolute;
     float: left;
-    left:16%;
-    top:3%;
+    left:28px;
+    top:1px;
 }
-#fs-s span{
+#fs-s input{
+    border: none;
+    outline: none;
+    background-color:transparent;
     font-size: 12px;
-    color:#666666;
+    color:#333333;
 }
-
 /*搜索标志*/
 #fs-t{
     height: 17px;
     width: 17px;
     position: absolute;
     float:left;
-    right: 4%;
-    top:10%;
+    right: 8px;
+    top:4px;
 }
 #fs-t a img{
     width:100%;
@@ -105,9 +97,8 @@
 }
 /*历史记录*/
 #f-t{
-    height:17px;
-    width:17px;
-    /*margin-top:1%;*/
+    height:18px;
+    width:18px;
 }
 #f-t a img{
     height: 100%;
@@ -115,32 +106,25 @@
 }
 /*加号*/
 #f-tr{
-    height:17px;
-    width:17px;
-    /*margin-top:6px;*/
+    height:18px;
+    width:18px;
 }
 #f-tr a img{
     height: 100%;
     width: 100%;
 }
-
-
-
 /*第二部分*/
-
 /*48*/
 #s{
     height:48px;
     width:100%;
     background-color: #315F6E;
-    position: fixed;
-    top:8.51%;
+    position:absolute;
+    top:70px;
     display: flex;
-    /*justify-content: space-between;*/
     align-items: center;
     float: left;
 }
-
 /*70周年*/
 #s-f{
     height: 38px;
@@ -156,8 +140,6 @@
     width: 276px;
     height: 38px;
     float: left;
-    /*background-color: blue;*/
-    /*position: absolute;*/
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -170,21 +152,17 @@
     height: 17px;
     position: absolute;
     float: left;
-    right: 3%;
-
+    right: 10px;
 }
-
 #s-t a  img{
     height: 100%;
     width:100%;
 }
-
 /*第三部分*/
 #t{
-    height: 20%;
     width:100%;
     position: absolute;
-    top:14.4%;
+    top:118px;
 }
 #t a img{
     width:100%;
@@ -222,28 +200,26 @@
 
 /*第四部分*/
 #fo {
-    height:9.865%;
+    height:80px;
     /*background-color: #c20c0c;*/
     display: flex;
     align-items: center;
-    position: absolute;
-    top:37%;
+    position:relative;
+    top:274px;
     justify-content: space-around;
 }
 .fo-f{
-    height:62.5%;
-    width:23%;
+    height:50px;
+    width:86px;
     border-radius: 5px;
     background-color: #F4F8FB;
 
 }
-
 .fo-s span{
     font-size: 14px;
     font-weight: bold;
     color: black;
     margin-left: 10%;
-
 }
 .fo-t span{
     font-size: 11px;
@@ -254,12 +230,8 @@
 #fi{
     height:2.72%;
     width: 100%;
-    position: absolute;
-    top:45%;
-    /*background-color: #c20c0c;*/
-    /*display: flex;*/
-    /*align-items: center;*/
-    /*justify-content: space-between;*/
+    position: relative;
+    top:270px;
 }
 /*快报*/
 #fi-f{
@@ -270,7 +242,7 @@
 }
 #fi-f img{
     width: 100%;
-    /*height: 100%;*/
+    height: 100%;
 }
 /*热搜*/
 #fi-s{
@@ -283,6 +255,7 @@
     align-items: center;
     justify-content: center;
     margin-left: 3%;
+    margin-top: 4px;
 }
 #fi-s span{
     color:white;
@@ -314,33 +287,68 @@
     /*height: 100%;*/
     width: 100%;
 }
-
-
-
 /*第六部分*/
 #si{
-    height: 100%;
+    height: 100px;
     width: 100%;
-    margin-top: 36%;
-    position: absolute;
-    top:47%;
-
+    position:relative;
+    top:300px;
 }
 #sis{
-    height:12.9%;
-    width: 49%;
+    height:104px;
+    width: 175px;
     float: left;
+    position: absolute;
+    left: 6px;
+}
+#sif{
+    height:104px;
+    width: 175px;
+    position: absolute;
+    float:left;
+    left: 190px;
+}
+#sit{
+    height:104px;
+    width: 175px;
+    float: left;
+    position: absolute;
+    left: 6px;
+    top:164px;
+}
+
+#sifo{
+    height:104px;
+    width: 175px;
+    position: absolute;
+    float:left;
+    left: 190px;
+    top:164px;
+}
+#sifi{
+    height:104px;
+    width: 175px;
+    position: absolute;
+    float:left;
+    left: 6px;
+    top:328px;
+}
+#sisi{
+    height:104px;
+    width: 175px;
+    position: absolute;
+    float:left;
+    left: 190px;
+    top:328px;
 }
 /*节目图片*/
 .si-f{
-    height:12.9%;
-    width: 49%;
+    height:104px;
+    width: 180px;
     position:absolute;
-    /*float: left;.*/
-    /*background-color:red;*/
 }
 .si-f img{
-    /*height: 100%;*/
+    height: 100%;
     width: 100%;
 }
 .sif-f{
@@ -374,46 +382,26 @@
     color: #333333;
     font-size: 15px;
     position: absolute;
-    margin-top:29.4%;
-    margin-left: 2.5%;
+    top:114px;
 }
 .si-t{
     color: #999999;
     position: absolute;
     font-size: 13px;
-    margin-left: 2.5%;
-    margin-top: 35%;
+    top:134px;
 }
 
-#sif{
-    height:12.9%;
-    width: 49%;
-    float: right;
-}
-#sit{
-    height:12.9%;
-    width: 49%;
-    float: left;
-    margin-top:14%;
-    /*background-color: #c20c0c;*/
-}
 
-#sifo{
-    height:12.9%;
-    width: 49%;
-    float: right;
-    margin-top:14%;
-    /*background-color: #c20c0c;*/
-}
 /*第七部分*/
 #se{
     height:7%;
     width: 100%;
-    position: absolute;
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    bottom: 14%;
+    bottom: 0;
+    z-index: 1;
     background-color: white;
 }
 

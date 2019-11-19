@@ -149,39 +149,39 @@
 }
 #ts{
     position: absolute;
-    top:30px;
+    top:40px;
 }
 #tt{
     position: absolute;
-    top:60px;
+    top:80px;
 }
 #tfo{
     position: absolute;
-    top:90px;
+    top:120px;
 }
 #tfi{
     position: absolute;
-    top:120px;
+    top:160px;
 }
 #tsi{
     position: absolute;
-    top:150px;
+    top:200px;
 }
 #tse{
     position: absolute;
-    top:180px;
+    top:240px;
 }
 #tei{
     position: absolute;
-    top:210px;
+    top:280px;
 }
 #tni{
     position: absolute;
-    top:240px;
+    top:320px;
 }
 #tte{
     position: absolute;
-    top:270px;
+    top:360px;
 }
 .t-f{
     position: absolute;
@@ -211,7 +211,7 @@
     height:100px;
     width: 100%;
     position: relative;
-    top:100px;
+    top:200px;
     display: flex;
     align-items: center;
     justify-content: center;

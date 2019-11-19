@@ -199,11 +199,14 @@ height:32px;
 #t-t{
     position: absolute;
     top:36px;
-    width: 140px;
+    width: 159px;
     height: 90px;
-    background-color: #c20c0c;
+    /*background-color: #c20c0c;*/
     left: 15px;
-
+}
+#t-t img{
+    height: 100%;
+    width: 100%;
 }
 #tt-f{
     position: absolute;
@@ -215,10 +218,14 @@ height:32px;
 #t-fo{
     position: absolute;
     top:36px;
-    width: 140px;
+    width: 159px;
     height: 90px;
-    left: 165px;
-    background-color: #c20c0c;
+    left: 184px;
+    /*background-color: #c20c0c;*/
+}
+#t-fo img{
+    height: 100%;
+    width: 100%;
 }
 #tt-s{
     position: absolute;
@@ -256,7 +263,7 @@ height:32px;
 #t-fi{
     position: absolute;
     height: 40px;
-    width: 140px;
+    width: 159px;
     left: 15px;
     top:132px;
     color: #333333;
@@ -266,8 +273,8 @@ height:32px;
 #t-si{
     position: absolute;
     height: 40px;
-    width: 140px;
-    left: 165px;
+    width: 159px;
+    left: 184px;
     top:132px;
     color: #333333;
     font-size: 13px;
@@ -302,11 +309,14 @@ height:32px;
 #fot{
     position: absolute;
     top:36px;
-    width: 140px;
+    width: 159px;
     height: 90px;
-    background-color: #c20c0c;
+    /*background-color: #c20c0c;*/
     left: 15px;
-
+}
+#fot img{
+    height: 100%;
+    width: 100%;
 }
 #fot-f{
     position: absolute;
@@ -318,10 +328,14 @@ height:32px;
 #fot-s{
     position: absolute;
     top:36px;
-    width: 140px;
+    width: 159px;
     height: 90px;
-    left: 165px;
-    background-color: #c20c0c;
+    left: 184px;
+    /*background-color: #c20c0c;*/
+}
+#fot-s img{
+    height: 100%;
+    width: 100%;
 }
 #fot-t{
     position: absolute;
@@ -345,11 +359,14 @@ height:32px;
 #sit{
     position: absolute;
     top:36px;
-    width: 140px;
+    width: 159px;
     height: 90px;
-    background-color: #c20c0c;
+    /*background-color: #c20c0c;*/
     left: 15px;
-
+}
+#sit img{
+    height: 100%;
+    width: 100%;
 }
 #sit-f{
     position: absolute;
@@ -361,10 +378,14 @@ height:32px;
 #sit-s{
     position: absolute;
     top:36px;
-    width: 140px;
+    width: 159px;
     height: 90px;
-    left: 165px;
-    background-color: #c20c0c;
+    left: 184px;
+    /*background-color: #c20c0c;*/
+}
+#sit-s img{
+    height: 100%;
+    width: 100%;
 }
 #sit-t{
     position: absolute;
@@ -433,6 +454,9 @@ height:32px;
     height:24px;
     width: 24px;
     float: left;
-    background-color: #c20c0c;
-
+    /*background-color: #c20c0c;*/
+}
+.fi-s img{
+    height: 100%;
+    width: 100%;
 }
